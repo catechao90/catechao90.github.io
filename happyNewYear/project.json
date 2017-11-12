@@ -1,0 +1,29 @@
+{
+    "debugMode"     : 1,
+    "showFPS"       : false,
+    "frameRate"     : 60,
+    "id"            : "gameCanvas",
+    "renderMode"    : 1,
+    "engineDir"     : "../../frameworks/cocos2d-html5/",
+
+    "modules"       : ["cocos2d", "extensions", "external"],
+    "jsList"        : [
+				    "resource.js",
+				    "src/gameConfig.js",
+				    "src/gameConst.js",
+				    "src/loading.js",
+				    "src/mainView.js",
+				    "src/view/GameMachine.js",
+				    "src/view/Egg.js",
+				    "src/view/EffectLayer.js",
+				    "src/view/Snow.js",
+				    "src/view/ResultLayer.js",
+				    "src/data/GiftType.js",
+				    "src/data/UserList.js",
+				    "src/data/MainDataModel.js",
+				    "src/view/GameSelect.js",
+				    "src/view/SelectItem.js",
+				    "src/view/ModleLayerColor.js",
+				    "src/view/SelectView.js"
+   					 ]
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+    <title>HappyNewYear</title> 
+    <script type="text/javascript" src="lib/cocos2d-js-v3.9.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="lib/jquery.min.js" ></script>
+      <script type="text/javascript" src="lib/jweixin.js" ></script>
+</head>
+<body>   
+    <canvas id="gameCanvas" width="1920" height="1080"></canvas>
+    <script type="text/javascript">
+     var BG = BG ||{};
+            window.onload = function(){
+            	cc.game.onStart = function(){
+                  //load resources
+                    cc.director.runScene(new BG.LoadingScene());
+              };
+              cc.game.run("gameCanvas");
+            }
+              	
+    </script>
+</body>
+</html>

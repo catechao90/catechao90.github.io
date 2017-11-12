@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+img{
+	display: block;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+.contain{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.contain .start{
+	width: 59.3%;
+	height: 9.7%;
+	position: absolute;
+	top: 76.4%;
+	left: 20.3%;
+}
+.contain img{
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+#zhezhao{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 11111111;
+}
+#zhezhao span{
+	font-size: 22px;
+	font-weight: bold;
+	display: block;
+	margin: 60% 0 0 40%;
+}
+.contain1{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #000;
+}
+.contain1 .img1{
+	width: 100%;
+	height: 9.3%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.contain1 .img2{
+	width: 87.8%;
+	height: 10.9%;
+	position: relative;
+	top: 34%;
+	left: 6.2%;
+}
+.contain1 span{
+	font-family: '微软雅黑';
+	font-size: 28px;
+	display: block;
+	position:absolute;
+    color: #fff;
+    bottom: 3%;
+    right: 5%;
+}
+.contain2{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: #000;
+}
+.contain2 .img1{
+	width: 100%;
+	height: 9.3%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.contain2 .img2{
+	width: 70.9%;
+	height: 5.5%;
+	position: relative;
+	top: 13.5%;
+	left: 14.4%;
+}
+.contain2 .img3{
+	width: 70.9%;
+	height: 12.2%;
+	position: relative;
+	top: 26%;
+	left: 14.4%;
+}
+.contain2 span{
+	font-family: '微软雅黑';
+	font-size: 28px;
+	display: block;
+	position:absolute;
+    color: #fff;
+    bottom: 3%;
+    right: 5%;
+}

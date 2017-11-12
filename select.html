@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	p {
+    font-family: sans-serif;
+}
+
+input {
+ outline:0;
+}
+
+label.custom-select {
+    position: relative;
+    display: inline-block;
+}
+
+    .custom-select select {
+        display: inline-block;
+        border: 2px solid #bbb;
+        padding: 4px 3px 3px 5px;
+        margin: 0;
+        font: inherit;
+        outline:none; /* remove focus ring from Webkit */
+        line-height: 1.2;
+    border:0px;
+    border-bottom:1px solid #000;
+    background: url("images/icon-select.png") no-repeat 99% 50%;
+    
+    }
+
+    /* for Webkit's CSS-only solution */
+    @media screen and (-webkit-min-device-pixel-ratio:0) { 
+        .custom-select select {
+            padding-right:30px;    
+        }
+    }
+    
+    /* Since we removed the default focus styles, we have to add our own */
+    .custom-select select:focus {
+        -webkit-box-shadow: 0 0 3px 1px #c00;
+        -moz-box-shadow: 0 0 3px 1px #c00;
+        box-shadow: 0 0 3px 1px #c00;
+    }
+    
+    /* Select arrow styling */
+  
+    
+    .no-pointer-events .custom-select:after {
+        content: none;
+    }
+
+
+
+	</style>
+</head>
+<body>
+	<p><label class="custom-select">
+    Select your favorite food:
+    <select>
+        <option>Sushi</option>
+        <option>Blue cheese with crackers</option>
+        <option>Steak</option>
+        <option>Other</option>
+    </select>
+</label></p>
+<p><strong>Note:</strong> Currently (Mar 4, 2011) only works in Webkit and Gecko</p>
+</body>
+</html>
